@@ -1,0 +1,46 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.contenedor{
+	display: block;
+	width: 90%;
+	margin: auto;
+}
+
+header{
+	width: 100%
+	background-color: #2E8497;
+}
+
+nav{
+	/*flex*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+
+.linkNav{
+	padding: 10px;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: "Verdana";
+	background: #2E8497;
+	color: white;
+	text-align: center;
+
+	/*flex*/
+	/*flex: 1 1;*/
+	width: 200px;
+}
+
+.linkNav:hover{
+	background: #FFFFFF;
+	color: #2E8497;
+}
